@@ -1,0 +1,37 @@
+﻿use_directory_urls: false
+site_name: "Містобудівна документація в QGIS"
+
+theme:
+  name: material
+  language: uk
+  logo: images/icon.svg
+  favicon: images/icon.svg
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Перемкнути на темну тему
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Перемкнути на світлу тему
+
+nav:
+  - Головна: index.md
+  - Встановлення: installation.md
+  - Інтерфейс: interface.md
+  - Створення проєкту МД: md_project.md
+  - Стилізація: styling.md
+  - Довідник: reference.md
