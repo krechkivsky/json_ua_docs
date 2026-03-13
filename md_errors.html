@@ -6,13 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Документація плагіна json_ua, з яким можна створювати, перевіряти і виправляти JSON-файли містобудівної документації в QGIS.">
       
       
+        <meta name="author" content="Михайло Кречківський">
       
-        <link rel="prev" href="index.html">
+      
+        <link rel="canonical" href="https://krechkivsky.github.io/xml_ua_docs/md_errors.html">
       
       
-        <link rel="next" href="interface.html">
+        <link rel="prev" href="md_project.html">
+      
+      
+        <link rel="next" href="reference.html">
       
       
       <link rel="icon" href="images/icon.svg">
@@ -20,7 +26,7 @@
     
     
       
-        <title>Встановлення - Створення JSON для БГД МД</title>
+        <title>Перевірка і виправлення помилок МБД - Плагін json_ua для МД в QGIS</title>
       
     
     
@@ -86,7 +92,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Хедер">
-    <a href="index.html" title="Створення JSON для БГД МД" class="md-header__button md-logo" aria-label="Створення JSON для БГД МД" data-md-component="logo">
+    <a href="index.html" title="Плагін json_ua для МД в QGIS" class="md-header__button md-logo" aria-label="Плагін json_ua для МД в QGIS" data-md-component="logo">
       
   <img src="images/icon.svg" alt="logo">
 
@@ -99,13 +105,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Створення JSON для БГД МД
+            Плагін json_ua для МД в QGIS
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Встановлення
+              Перевірка і виправлення помилок МБД
             
           </span>
         </div>
@@ -186,6 +192,18 @@
       
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/krechkivsky/json_ua_docs" title="Перейти до вихідного коду" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    json_ua_docs
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -223,46 +241,6 @@
   
   
   
-    
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="installation.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Встановлення
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="interface.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Інтерфейс
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
   
     <li class="md-tabs__item">
       <a href="md_project.html" class="md-tabs__link">
@@ -271,7 +249,7 @@
   
     
   
-  Створення проєкту МД
+  Створення проєкту МБД
 
       </a>
     </li>
@@ -282,15 +260,17 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="styling.html" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="md_errors.html" class="md-tabs__link">
         
   
   
     
   
-  Стилізація
+  Перевірка і виправлення помилок МБД
 
       </a>
     </li>
@@ -338,13 +318,25 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навігація" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Створення JSON для БГД МД" class="md-nav__button md-logo" aria-label="Створення JSON для БГД МД" data-md-component="logo">
+    <a href="index.html" title="Плагін json_ua для МД в QGIS" class="md-nav__button md-logo" aria-label="Плагін json_ua для МД в QGIS" data-md-component="logo">
       
   <img src="images/icon.svg" alt="logo">
 
     </a>
-    Створення JSON для БГД МД
+    Плагін json_ua для МД в QGIS
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/krechkivsky/json_ua_docs" title="Перейти до вихідного коду" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    json_ua_docs
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -374,6 +366,28 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="md_project.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Створення проєкту МБД
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -386,84 +400,83 @@
         
       
       
-      <a href="installation.html" class="md-nav__link md-nav__link--active">
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Перевірка і виправлення помилок МБД
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="md_errors.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Встановлення
+    Перевірка і виправлення помилок МБД
     
   </span>
   
 
       </a>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="interface.html" class="md-nav__link">
         
-  
-  
-  <span class="md-ellipsis">
-    Інтерфейс
-    
-  </span>
-  
 
-      </a>
-    </li>
+<nav class="md-nav md-nav--secondary" aria-label="Зміст">
   
-
+  
+  
     
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Зміст
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
-      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Зайві атрибути
+    </span>
+  </a>
   
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="md_project.html" class="md-nav__link">
+    <nav class="md-nav" aria-label="Зайві атрибути">
+      <ul class="md-nav__list">
         
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Помилки в назвах атрибутів
+    </span>
+  </a>
   
-  
-  <span class="md-ellipsis">
-    Створення проєкту МД
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="styling.html" class="md-nav__link">
+</li>
         
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Топологічні помилки
+    </span>
+  </a>
   
+</li>
+        
+      </ul>
+    </nav>
   
-  <span class="md-ellipsis">
-    Стилізація
-    
-  </span>
+</li>
+      
+    </ul>
   
-
-      </a>
+</nav>
+      
     </li>
   
 
@@ -510,6 +523,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Зміст
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Зайві атрибути
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Зайві атрибути">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Помилки в назвах атрибутів
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Топологічні помилки
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -523,8 +577,28 @@
                   
 
 
+  
+  
 
-<h1 id="_1">Встановлення</h1>
+
+<h1 id="_1">Перевірка і виправлення помилок МБД</h1>
+<p>При виборі пункту меню "Перевірити проєкт" </p>
+<p><a href="images/check_item.png" target="_blank" title="Натисніть, щоб відкрити зображення у повному розмірі">
+    <img src="images/check_item.png" alt="Перевірити проєкт">
+</a>
+плагін перевіряє структуру, значення і геометрію згідно правил у наказі 56. При виявленні помилок у папці/групі проєкту створюється папка/підгрупа Errors, куди додаються JSON/шари з помилковими об'єктами і описом помилок. </p>
+<h2 id="_2">Зайві атрибути</h2>
+<p><a href="images/needless_attr.png" target="_blank" title="Натисніть, щоб відкрити зображення у повному розмірі">
+    <img src="images/needless_attr.png" alt="Зайві атрибути">
+</a></p>
+<h3 id="_3">Помилки в назвах атрибутів</h3>
+<p><a href="images/error_attr_name.png" target="_blank" title="Натисніть, щоб відкрити зображення у повному розмірі">
+    <img src="images/error_attr_name.png" alt="Зайві атрибути">
+</a></p>
+<h3 id="_4">Топологічні помилки</h3>
+<p><a href="images/error_topo.png" target="_blank" title="Натисніть, щоб відкрити зображення у повному розмірі">
+    <img src="images/error_topo.png" alt="Зайві атрибути">
+</a></p>
 
 
 
@@ -560,6 +634,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026, krechkivsky.dev@gmail.com
+    </div>
   
   
     Made with
